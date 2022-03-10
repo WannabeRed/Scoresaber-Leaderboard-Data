@@ -34,6 +34,8 @@ public class leaderboardGetter {
 
         double TopScorePP = scores.playerScores[0].score.pp;
 
+
+        System.out.println("je");
         System.out.println(playerID);
         System.out.println(TopScorePP);
         System.out.println(TotalPP);
