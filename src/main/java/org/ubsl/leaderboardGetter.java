@@ -1,40 +1,42 @@
 package org.ubsl;
 
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
-import com.google.gson.JsonElement;
+import org.ubsl.models.PlayerScores;
 
 import java.io.BufferedReader;
+import java.io.IOException;
 import java.io.InputStreamReader;
-import java.net.HttpURLConnection;
-import java.net.URL;
-
-//import com.google.gson.JsonObject;
-//import com.google.gson.JsonParser;
-//import com.google.gson.Gson;
 
 public class leaderboardGetter {
-    public static void main(String[] args) throws Exception{
-        JsonObject webOut = getJSON("https://scoresaber.com/api/player/76561199104169308/scores?limit=1&sort=top&withMetadata=true");
-        System.out.println(webOut);
+    public static void main(String[] args) throws Exception {
+        var scores = getPlayerScoresFromUrl("https://scoresaber.com/api/player/76561199104169308/scores");
+
+        double TopScorePP = scores.playerScores[0].score.pp;
+        double TotalPP = 0;
+
+        System.out.println(scores);
     }
 
-    public static JsonObject getJSON(String urlToRead) throws Exception {
+    public static PlayerScores getPlayerScoresFromUrl(String url) {
+        GsonBuilder builder = new GsonBuilder();
+        Gson gson = builder.create();
+
         StringBuilder result = new StringBuilder();
 
-        String curlCommand = "curl -X GET " + urlToRead;
+        String curlCommand = "curl -X GET " + url;
         ProcessBuilder processBuilder = new ProcessBuilder(curlCommand.split(" "));
-        Process process = processBuilder.start();
-        try (BufferedReader reader = new BufferedReader(
-                new InputStreamReader(process.getInputStream()))) {
-            for(String line; (line = reader.readLine()) != null; ) {
-                result.append(line);
-            }
+        Process process;
+
+        try {
+            process = processBuilder.start();
+            BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
+            return gson.fromJson(reader, PlayerScores.class);
+        } catch (IOException e) {
+            e.printStackTrace();
+            return null;
         }
-
-        String json = result.toString();
-        JsonObject jsonObj = JsonParser.parseString(json).getAsJsonObject();
-
-        return jsonObj;
     }
 }

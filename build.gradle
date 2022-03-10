@@ -3,6 +3,10 @@ plugins {
     id 'application'
 }
 
+application {
+    mainClass.set('org.ubsl.leaderboardGetter')
+}
+
 group 'org.ubsl'
 version '1.0-SNAPSHOT'
 
@@ -19,10 +23,4 @@ dependencies {
 
 test {
     useJUnitPlatform()
-}
-
-jar {
-    manifest{
-        attributes "Main-Class": "org.ubsl.leaderboardGetter"
-    }
 }
