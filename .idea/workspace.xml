@@ -5,30 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4238d2c4-94fa-4015-a298-dcdda8bb5a23" name="Changes" comment="gradle">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ubsl/models/Difficulty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ubsl/models/Leaderboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ubsl/models/MetaData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ubsl/models/PlayerScore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ubsl/models/PlayerScores.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ubsl/models/Score.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/ubsl/leaderboardGetter.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/ubsl/leaderboardGetter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/org/ubsl/leaderboardGetterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/org/ubsl/leaderboardGetterTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/ubsl/models/PlayerScore.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/ubsl/models/PlayerScore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/ubsl/models/PlayerScores.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/ubsl/models/PlayerScores.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/ubsl/models/Score.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/ubsl/models/Score.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/ubsl/leaderboardGetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ubsl/leaderboardGetter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
